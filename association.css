@@ -193,3 +193,27 @@ nav{
     display: inline-flex;
     
 }
+.end-of-page{
+    background-color: #3A9B59;
+    width: 100%;
+}
+.end-of-page, .list{
+    display: inline-flex;
+    justify-content: space-around;
+    color: #DBF0EA;
+    
+    
+}
+.first-list, .second-list{
+    list-style-type: none;
+    
+}
+.list a{
+    text-decoration: none;
+    color: #DBF0EA;
+    
+}
+.donate a{
+    text-decoration: none;
+    color: #DBF0EA;
+}
