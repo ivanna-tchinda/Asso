@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+.navbar{
+    background-color: #55A2D3;
+    width: 100%;
+    color: #C0DEF1;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.image1{
+    width: 140vh;
+    height: 90vh;
+    float: right;
+}
+.event{
+    margin: 5%;
+    border-style: dashed;
+    border-color: #55A2D3;
+    color: #153344;
+    background-color: #F4F9FA;
+
+}
