@@ -8,11 +8,11 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: blue;
+    background-color: #3A9B59;
     font-family: 'Sen', sans-serif;
 }
 .logo{
-    color: #e6e6ff;
+    color: #DBF0EA;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 22px;
@@ -26,7 +26,7 @@ nav{
     list-style-type: none;
 }
 .nav-links a{
-    color: #e6e6ff;
+    color: #DBF0EA;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -39,7 +39,7 @@ nav{
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: #e6e6ff;
+    background-color: #DBF0EA;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -59,7 +59,7 @@ nav{
         right: 8px;
         height: 92vh;
         top: 8vh;
-        background-color: blue;
+        background-color: #3A9B59;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -100,4 +100,96 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+.image1,.image2,.image3,.image4{
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding: 10px;
+    height: 50vh;
+    width: 80vh;
+    justify-content: center;
+
+}
+
+.image5{
+    float: left;
+    height: 80vh;
+    width: 110vh;   
+    padding-top: 25px;
+}
+
+.read-more{
+    text-decoration: underline;
+    color: blue;
+}
+
+.first-article,.second-article,.first-act,.second-act{
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 15px;
+    border-color: #3A9B59;
+    height: 75vh;
+    width: 90vh;
+    display: inline-block;
+    justify-items: normal;
+    margin: 30px;
+    padding: 8px;
+}
+.headlines{
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 15px;
+    border-color: #3A9B59;
+    height: 90vh;
+    width: 200vh; 
+    display: inline-block;
+    justify-items: normal;
+    margin: 30px;
+    padding: 8px
+}
+.headlines-title{
+    float: right;
+    padding-left: 4px;
+}
+.headlines-text{
+    padding: 20px;
+}
+
+.first-article:hover, .second-article:hover{
+    background-color: #DBF0EA;
+    cursor: grab;
+}
+.first-act:hover ,.second-act:hover,.headlines:hover{
+    background-color: #DBF0EA;
+    cursor: grab;
+}
+.more-articles1, .more-articles2{
+    background-color: #3A9B59;
+    color: #DBF0EA;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    border-radius: 10%;
+
+}
+
+
+.see-more{
+    text-decoration: none;
+    color: #DBF0EA;
+
+}
+
+.more-articles1:hover,.more-articles2:hover{
+    cursor: grab;
+}
+
+.blog, .actualities{
+    display: inline-flex;
+    
 }
